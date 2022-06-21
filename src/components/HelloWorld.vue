@@ -1,5 +1,7 @@
 <template>
   <div class="hello">
+    <expandContainer label="One" />
+    <expandContainer label="Two" />
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -31,8 +33,13 @@
 </template>
 
 <script>
+import expandContainer from './expandContainer.vue';
+
 export default {
   name: 'HelloWorld',
+  components: {
+    expandContainer,
+  },
   props: {
     msg: String
   }

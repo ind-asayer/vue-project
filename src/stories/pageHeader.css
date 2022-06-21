@@ -1,0 +1,18 @@
+body{
+	font-family:"Open Sans", sans-serif!important;
+}
+
+.topnav{
+	font-size: 24px;
+	background-color: rgba(0,0,0,1);
+	color: rgba(255,255,255,1);
+	text-align: left;
+	
+}
+
+.page-title{
+	background-color:rgba(0,0,0,0.87);
+	color:rgba(255,255,255,1);
+	padding:10px;
+	text-align:left;
+}
