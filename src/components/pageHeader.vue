@@ -1,5 +1,5 @@
 <template>
-  <div class="row no-gutters topnav">
+  <div class="row no-gutters topnav" style="margin:0 15px;">
     <div class="col-sm-12 page-title">
       <h1>{{label}}</h1>
     </div>

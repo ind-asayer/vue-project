@@ -4,27 +4,19 @@
     <div class="container">
       <pageHeader label="App Header" />
       
-      <div>
-        <h3>Let us test your arithmetic.</h3>
-        <p>What is the sum of the two numbers?</p>
-        <div class="inline">
-          <p>{{ x1 }} + {{ x2 }} =</p> <input v-model="guess"> <button v-on:click="check">Check Answer</button>
+      <div class="row no-gutters dr-shadow" style="background-color:rgba(255,255,255,1); margin:15px;">
+        <div class="col-sm-12" style="padding:15px;">
+          <h3 style="font-weight:bold; font-size:18px; ">Let's test your math!</h3>
+          <p>What is the sum of the two numbers?</p>
+          <div class="inline">
+            <p>{{ x1 }} + {{ x2 }} =</p> <input v-model="guess"> <button v-on:click="check">Check Answer</button>
+          </div>
+          <button v-on:click="refresh">Refresh</button>
+          <p>{{message}}</p>
         </div>
-        <button v-on:click="refresh">Refresh</button>
-        <p>{{message}}</p>
+        
       </div>
 
-      <div style="width:960px; margin:auto;">
-        <div class="row no-gutters">
-          <div class="col-sm-12 col-md-6 text-start">
-            My name
-          </div>
-
-          <div class="col-sm-12 col-md-6 text-end">
-            The date
-          </div>
-        </div>
-      </div>
       <HelloWorld msg="Welcome to Your Vue.js App"/>
     </div>
   </div>

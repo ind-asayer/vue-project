@@ -15,7 +15,11 @@
       </div>
 
       <b-collapse :id="label">
-        PLOP!
+        <div class="row no-gutters" style="padding:20px;">
+          <div class="col-sm-12">
+            Some Text
+          </div>
+        </div>
       </b-collapse>
 		</div>
 	</div>
