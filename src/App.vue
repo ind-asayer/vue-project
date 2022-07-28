@@ -6,7 +6,7 @@
       
       <div class="row no-gutters dr-shadow" style="background-color:rgba(255,255,255,1); margin:15px;">
         <div class="col-sm-12" style="padding:15px;">
-          <h3 style="font-weight:bold; font-size:18px; ">Let's test your math together!</h3>
+          <h3 style="font-weight:bold; font-size:18px; ">Let's test your math today!</h3>
           <p>What is the sum of the two numbers?</p>
           <div class="inline">
             <p>{{ x1 }} + {{ x2 }} =</p> <input v-model="guess"> <button v-on:click="check">Check Answer</button>
